@@ -22,6 +22,7 @@
 							<img src="./assets/icons/menu.svg" alt="Mobile menu trigger" />
 						</span>
 						<nav class="primary-nav">
+							<span class="menu-close mobile-only">&times;</span>
 							<ul class="navigation flex just-center items-center">
 								<li><a href="#">Home</a></li>
 								<li><a href="#">About</a></li>
@@ -40,7 +41,7 @@
 		</header>
 
 		<!-- Hero -->
-		<section class="hero">
+		<section class="hero relative">
 			<div class="container">
 				<div class="hero__content flex space-between">
 					<div class="hero__content--text">
@@ -53,7 +54,7 @@
 						</p>
 						<div class="hero--buttons flex items-center">
 							<a href="#" class="btn btn-primary">Get Started</a>
-							<span class="btn-play">
+							<span class="btn-play video-popup--trigger">
 								<img src="./assets/icons/play.svg" alt="Play video" />
 							</span>
 						</div>
@@ -79,6 +80,14 @@
 						</div>
 						<img src="./assets/images/hero-image.png" alt="Hero image" />
 					</div>
+				</div>
+			</div>
+			<div class="hero-video none">
+				<div class="hero-video--box">
+					<span class="hero-video--close">&times;</span>
+					<video controls>
+						<source src="./assets/videos/header.mp4" />
+					</video>
 				</div>
 			</div>
 		</section>
